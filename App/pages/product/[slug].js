@@ -1,5 +1,5 @@
-import Layout from "@/e-commerce/App/components/Layout";
-import Product from "@/e-commerce/App/models/Product";
+import Layout from "@/components/Layout";
+import Product from "@/models/Product";
 import db from "@/utils/db";
 import { getError } from "@/utils/error";
 import { Store } from "@/utils/Store";

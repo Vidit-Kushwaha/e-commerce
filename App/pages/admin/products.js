@@ -1,4 +1,4 @@
-import Layout from "@/e-commerce/App/components/Layout";
+import Layout from "@/components/Layout";
 import { getError } from "@/utils/error";
 import axios from "axios";
 import Link from "next/link";

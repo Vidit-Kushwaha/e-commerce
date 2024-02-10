@@ -1,5 +1,5 @@
-import CheckoutWizard from "@/e-commerce/App/components/CheckoutWizard";
-import Layout from "@/e-commerce/App/components/Layout";
+import CheckoutWizard from "@/components/CheckoutWizard";
+import Layout from "@/components/Layout";
 import { Store } from "@/utils/Store";
 import Cookies from "js-cookie";
 import { useRouter } from "next/router";

@@ -1,4 +1,4 @@
-import Layout from "@/e-commerce/App/components/Layout";
+import Layout from "@/components/Layout";
 import Link from "next/link";
 import { signIn, useSession } from "next-auth/react";
 import React, { useEffect } from "react";

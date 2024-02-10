@@ -1,5 +1,5 @@
-import Layout from "@/e-commerce/App/components/Layout";
-import Product from "@/e-commerce/App/models/Product";
+import Layout from "@/components/Layout";
+import Product from "@/models/Product";
 import db from "@/utils/db";
 import { Store } from "@/utils/Store";
 import axios from "axios";
@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import React, { useContext } from "react";
 import { toast } from "react-toastify";
 import { XCircleIcon } from "@heroicons/react/24/outline";
-import ProductItem from "@/e-commerce/App/components/ProductItem";
+import ProductItem from "@/components/ProductItem";
 
 const PAGE_SIZE = 3;
 

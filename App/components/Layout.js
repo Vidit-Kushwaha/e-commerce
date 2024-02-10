@@ -9,6 +9,8 @@ import React, { useContext, useEffect, useState } from "react";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import DropdownLink from "./DropdownLink";
+import { MicrophoneIcon } from "@heroicons/react/24/outline";
+import VoiceInput from "./Mic";
 
 function Layout({ title, children }) {
   const router = useRouter();
@@ -60,6 +62,7 @@ function Layout({ title, children }) {
               className="mx-auto  hidden w-full justify-center md:flex"
               onSubmit={submitHandler}
             >
+              <VoiceInput />
               <input
                 onChange={(e) => setQuery(e.target.value)}
                 type="text"

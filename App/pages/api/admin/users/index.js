@@ -1,4 +1,4 @@
-import User from "@/e-commerce/App/models/User";
+import User from "@/models/User";
 import db from "@/utils/db";
 import { getSession } from "next-auth/react";
 

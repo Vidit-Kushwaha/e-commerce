@@ -1,4 +1,4 @@
-import Order from "@/e-commerce/App/models/Order";
+import Order from "@/models/Order";
 import db from "@/utils/db";
 import { getSession } from "next-auth/react";
 

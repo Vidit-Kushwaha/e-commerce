@@ -1,6 +1,6 @@
-import Layout from "@/e-commerce/App/components/Layout";
-import ProductItem from "@/e-commerce/App/components/ProductItem";
-import Product from "@/e-commerce/App/models/Product";
+import Layout from "@/components/Layout";
+import ProductItem from "@/components/ProductItem";
+import Product from "@/models/Product";
 import db from "@/utils/db";
 import { Store } from "@/utils/Store";
 import axios from "axios";

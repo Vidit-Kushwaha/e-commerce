@@ -1,4 +1,4 @@
-import Layout from "@/e-commerce/App/components/Layout";
+import Layout from "@/components/Layout";
 import { useRouter } from "next/router";
 import React from "react";
 
